@@ -80,14 +80,3 @@ img.slide{
     transform: scale(1.5);
     transition: 1s;
 }
-hgroup{
-    /*  
-        hgroup é apenas um container 
-        para aninhar as "img" no HTML
-        assim ficam alinhadas lado a lado
-        porque "li" está com 
-            display: flex;
-            flex-direction: column; 
-            align-items: center;
-    */
-}
