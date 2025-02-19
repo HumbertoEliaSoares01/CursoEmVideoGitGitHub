@@ -1,15 +1,58 @@
+/*  *{ = "configuração padrão" */
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+}
+:root{
+    --cor01: #1C1CFF;
+    --cor02: #37006B;
+    --cor03: #dddddd;
+}
+.lado{
+    float: right;
+    padding: 10px;
 }
 body{
-    background-color: #dddddd;
+    background-color: var(--cor03);
     padding: 25px;
 }
 main{
+    border-radius: 5px;
     background-color: #ffffff;
     width: 600px;
     margin: auto;
     padding: 25px;
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.473);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+h1, h2{
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+    color: var(--cor01);
+}
+h2{
+    color: var(--cor02);
+}
+p{
+    padding: 0px 10px;
+    text-align: justify;
+}
+img{
+    display: block;
+    margin: auto;
+    float: left;
+}
+article{
+    padding: 20px;
+    margin: 10px;
+}
+iframe{
+    display: block;
+    margin: 25px auto;
+    width: 75%;
+}
+hr{
+    border-color: var(--cor01);
+    width: 400px;
+    border-width: 1px;
 }
